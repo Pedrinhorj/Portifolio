@@ -1,0 +1,104 @@
+#root {
+  text-align: center;
+  color: white;
+  background-color: #101024 !important;
+}
+a {
+  color: white !important;
+}
+header {
+  border-bottom: white solid 1px;
+}
+
+header,
+.container1 {
+  padding: 2%;
+}
+.container1 {
+  display: flex;
+}
+
+.container2 {
+  background-image: url("./assets/images/wallpapperWeb.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container2 .subcontainer2 {
+  width: 45em;
+  border: white solid 3px;
+  border-radius: 7px;
+  background: rgba(40, 41, 61, 0.7);
+}
+.container2 h1 {
+  color: white !important;
+  text-shadow: black 1px 1px 5px;
+  font-size: 3em;
+  font-family: "Oswald", sans-serif;
+}
+.container2 article p {
+  font-size: 20px;
+  color: white;
+}
+
+.container2 .subcontainer {
+  display: flex;
+  gap: 3em;
+}
+.container2 .subcontainer article {
+  width: 35em;
+  border-left: #ffffff solid 5px;
+  background: rgba(39, 40, 54, 0.5);
+  border-radius: 8px;
+}
+
+h3,
+h4 {
+  color: white !important;
+}
+.container3 {
+  color: white;
+  background-color: #101024;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-direction: column;
+}
+.container3 .subcontainer1 {
+  display: flex;
+  gap: 5em;
+}
+.HTML,
+.CSS,
+.javascript,
+.react,
+.bootstrap {
+  display: flex;
+  align-items: center;
+}
+
+.container3 .languages {
+  background-color: #000014;
+  padding: 2%;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+footer {
+  padding: 2%;
+  background-color: #080820;
+  border-top: white solid 1px;
+  display: flex;
+  justify-content: space-around;
+}
+.icon {
+  width: 35px;
+  height: 100px;
+}

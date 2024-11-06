@@ -1,0 +1,31 @@
+.link {
+  text-decoration: none;
+  padding: 1em;
+  font-size: 1.3em;
+  transition: border-right, border-left, background-color 0.3s;
+}
+
+.link:hover,
+.link:focus {
+  border-left: black solid 3px;
+  border-right: black solid 3px;
+  background-color: #494949;
+  color: white;
+}
+
+.link:active {
+  background-color: black;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo {
+  width: 15em;
+  margin-top: -5em;
+  transition: width 0.5s;
+}
+.logo:hover {
+  width: 18em;
+}
