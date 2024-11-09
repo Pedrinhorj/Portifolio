@@ -5,9 +5,13 @@
 .accordion-title {
   cursor: pointer;
   background-color: #000213;
-  padding: 3em;
+  padding: 6%;
   width: 15em;
   border: 1px solid #ccc;
+}
+
+.accordion-title:hover {
+  background-color: #000000;
 }
 
 .accordion-content {

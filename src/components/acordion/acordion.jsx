@@ -3,11 +3,7 @@ import { useState } from "react";
 
 const AccordionItem = ({ title, children, isOpen, onToggle }) => (
   <div>
-    <div
-      className="accordion-title "
-      onClick={onToggle}
-      style={{ cursor: "pointer", padding: "15px", background: "#000213" }}
-    >
+    <div className="accordion-title " onClick={onToggle}>
       {title}
     </div>
     {isOpen && <div className="accordion-content ">{children}</div>}

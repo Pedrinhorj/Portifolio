@@ -1,5 +1,6 @@
-import Naver from "./components/nav";
 import "./App.css";
+import "./animation.css";
+import Naver from "./components/nav";
 import { TiSocialLinkedin } from "react-icons/ti";
 import { SlSocialInstagram } from "react-icons/sl";
 import { TiSocialFacebookCircular } from "react-icons/ti";
