@@ -54,10 +54,9 @@ header,
 .container2 .subcontainer article {
   width: 35em;
   border-left: #ffffff solid 5px;
-  background: rgba(39, 40, 54, 0.5);
+  background: rgba(39, 40, 54, 0.85);
   border-radius: 8px;
 }
-
 h3,
 h4 {
   color: white !important;
@@ -93,7 +92,7 @@ h4 {
 }
 footer {
   padding: 2%;
-  background-color: #080820;
+  background-color: #000213;
   border-top: white solid 1px;
   display: flex;
   justify-content: space-around;

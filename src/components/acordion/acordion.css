@@ -1,0 +1,17 @@
+.accordion-item {
+  margin-bottom: 5px;
+}
+
+.accordion-title {
+  cursor: pointer;
+  background-color: #000213;
+  padding: 3em;
+  width: 15em;
+  border: 1px solid #ccc;
+}
+
+.accordion-content {
+  width: 15em;
+  border: 1px solid #ccc;
+  background-color: #101c2c;
+}

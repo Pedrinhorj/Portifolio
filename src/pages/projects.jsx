@@ -1,53 +1,78 @@
 import React from "react";
+import styled from "styled-components";
+import telaLogin from "../assets/images/tela-login.jpg";
+import narfnilk from "../assets/images/logo-title-option2.png";
+import { FaExternalLinkAlt } from "react-icons/fa";
+import { FaLink } from "react-icons/fa6";
+import "../assets/css/projects.css";
+
+const Divbody = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+`;
+
+const Main = styled.main`
+  display: flex;
+  justify-content: center;
+  gap: 5em;
+  margin-bottom: 4em;
+`;
+
+const Div = styled.div`
+  border-radius: 10px;
+  width: 18em;
+`;
+
+const DivNone = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+const SubDiv = styled.div`
+  display: flex;
+  gap: 20px;
+`;
+
+const Img = styled.img`
+  width: 18em;
+  height: 15em;
+`;
 
 const Projects = () => {
   return (
-    <>
-      <h1>Meus principais projetos</h1>
+    <Divbody>
+      <h1 style={{ marginTop: "1.3em" }}>Meus principais projetos</h1>
 
-      <main>
-        <div className="container1">
-          <img src="" alt="" />
-          <h4>Projeto1</h4>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
-            eligendi voluptas consequuntur magnam exercitationem repellendus
-            nobis, excepturi vitae nam vel expedita repellat sit laborum
-            architecto quasi quibusdam asperiores? Cumque, repellendus!
-          </p>
-        </div>
-        <div className="container2">
-          <img src="" alt="" />
-          <h4>Projeto2</h4>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
-            eligendi voluptas consequuntur magnam exercitationem repellendus
-            nobis, excepturi vitae nam vel expedita repellat sit laborum
-            architecto quasi quibusdam asperiores? Cumque, repellendus!
-          </p>
-        </div>
-        <div className="container3">
-          <img src="" alt="" />
-          <h4>Projeto3</h4>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
-            eligendi voluptas consequuntur magnam exercitationem repellendus
-            nobis, excepturi vitae nam vel expedita repellat sit laborum
-            architecto quasi quibusdam asperiores? Cumque, repellendus!
-          </p>
-        </div>
-        <div className="container4">
-          <img src="" alt="" />
-          <h4>Projeto4</h4>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
-            eligendi voluptas consequuntur magnam exercitationem repellendus
-            nobis, excepturi vitae nam vel expedita repellat sit laborum
-            architecto quasi quibusdam asperiores? Cumque, repellendus!
-          </p>
-        </div>
-      </main>
-    </>
+      <h5>Aqui se encontram os meus principais projetos</h5>
+
+      <Main>
+        <Div className="div1">
+          <Img src={telaLogin} alt="" />
+          <DivNone className="none">
+            <h4>Login e senha</h4>
+            <SubDiv>
+              <FaExternalLinkAlt />
+              <FaLink />
+            </SubDiv>
+            <p>
+              Um projeto simples visando apenas mostrar o funcionamento e design
+              de uma tela de login
+            </p>
+          </DivNone>
+        </Div>
+        <Div>
+          <Img src={narfnilk} alt="" />
+          <h4>NARFNILK</h4>
+          <SubDiv>
+            <FaExternalLinkAlt />
+            <FaLink />
+          </SubDiv>
+          <p>Um projeto de uma empresa audio visual</p>
+        </Div>
+      </Main>
+    </Divbody>
   );
 };
 
