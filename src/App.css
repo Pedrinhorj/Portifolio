@@ -100,6 +100,10 @@ footer {
   background-color: #000213;
   border-top: white solid 1px;
   display: flex;
+  flex-direction: column;
+}
+footer .icones {
+  display: flex;
   justify-content: space-around;
 }
 .icon {

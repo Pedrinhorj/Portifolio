@@ -53,8 +53,21 @@ const Projects = () => {
           <DivNone className="none">
             <h4>Login e senha</h4>
             <SubDiv>
-              <FaExternalLinkAlt />
-              <FaLink />
+              <a
+                href="https://github.com/Pedrinhorj/Login-senha"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaExternalLinkAlt />
+              </a>
+
+              <a
+                href="http://localhost:5174/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLink />
+              </a>
             </SubDiv>
             <p>
               Um projeto simples visando apenas mostrar o funcionamento e design
@@ -62,14 +75,16 @@ const Projects = () => {
             </p>
           </DivNone>
         </Div>
-        <Div>
+        <Div className="div1">
           <Img src={narfnilk} alt="" />
-          <h4>NARFNILK</h4>
-          <SubDiv>
-            <FaExternalLinkAlt />
-            <FaLink />
-          </SubDiv>
-          <p>Um projeto de uma empresa audio visual</p>
+          <DivNone className="none">
+            <h4>NARFNILK</h4>
+            <SubDiv>
+              <FaExternalLinkAlt />
+              <FaLink />
+            </SubDiv>
+            <p>Um projeto de uma empresa audio visual</p>
+          </DivNone>
         </Div>
       </Main>
     </Divbody>

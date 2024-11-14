@@ -38,8 +38,8 @@ header {
 
 .subcontainer2 {
   opacity: 0;
-  transform: translateZ(-400px) translateY(-200px);
-  transition: opacity 1s ease-in, transform 1s ease-in;
+  transform: translateZ(-300px) translateY(-200px);
+  transition: opacity 1s ease-in, transform 0.8s ease-in-out;
 }
 
 .subcontainer2.visible {
@@ -49,8 +49,8 @@ header {
 
 .subcontainer {
   opacity: 0;
-  transform: translateY(-300px) translateX(-100px);
-  transition: opacity 1s ease-in, transform 1.5s ease-in;
+  transform: translateZ(-300px) translateY(-200px);
+  transition: opacity 1s ease-in, transform 1s ease-in;
 }
 .subcontainer.visible {
   opacity: 1;

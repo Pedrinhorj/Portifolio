@@ -13,14 +13,11 @@ export default function Naver() {
         <CustomLink className="link" to="/projects">
           Projetos
         </CustomLink>
-        <CustomLink className="link" to="/contatos">
+        <CustomLink className="link" to="/contato">
           Contato
         </CustomLink>
         <CustomLink className="link" to="/hobbies">
           Hobbies
-        </CustomLink>
-        <CustomLink className="link" to="/skills">
-          Skills
         </CustomLink>
       </nav>
     </div>
