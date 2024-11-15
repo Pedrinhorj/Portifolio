@@ -2,9 +2,9 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import ExampleCarouselImage from "./ExampleCarouselImage";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Image1 from "../../assets/images/Leonardo_Phoenix_A_man_working_with_programming_on_a_computer_0.jpg";
-import Image2 from "../../assets/images/Leonardo_Phoenix_A_web_development_workshop_with_various_tools_1.jpg";
-import Image3 from "../../assets/images/Leonardo_Phoenix_an_image_divided_one_part_with_react_codes_an_0.jpg";
+import Image1 from "../../assets/images/image1.jpg";
+import Image2 from "../../assets/images/image2.jpg";
+import Image3 from "../../assets/images/image3.jpg";
 import "../../assets/css/carrossel.css";
 import styled from "styled-components";
 
