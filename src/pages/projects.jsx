@@ -62,7 +62,7 @@ const Projects = () => {
               </a>
 
               <a
-                href="http://localhost:5174/"
+                href="https://pedrinhorj.github.io/Login-senha/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -79,8 +79,15 @@ const Projects = () => {
           <Img src={narfnilk} alt="" />
           <DivNone className="none">
             <h4>NARFNILK</h4>
+            <h5>****EM PRODUÇÃO****</h5>
             <SubDiv>
-              <FaExternalLinkAlt />
+              <a
+                href="https://github.com/Pedrinhorj/NARFNILK"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaExternalLinkAlt />
+              </a>
               <FaLink />
             </SubDiv>
             <p>Um projeto de uma empresa audio visual</p>
