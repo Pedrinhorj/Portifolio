@@ -9,10 +9,11 @@ import Hobbies from "./pages/Hobbies";
 import Contato from "./pages/Contato";
 import Home from "./pages/Home";
 import { Routes, Route } from "react-router-dom";
+import "./assets/css/mediaquery.css";
 
 function App() {
   return (
-    <div>
+    <div className="main-media">
       <header>
         <Naver />
       </header>

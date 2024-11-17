@@ -6,6 +6,7 @@ import WithLabelReact from "./Progress/REACT.JS/react";
 import WithLabelBoot from "./Progress/Bootstrap/WithLabelBoot";
 import Accordion from "./acordion/acordion";
 import "../animation.css";
+import "../assets/css/mediaquery.css";
 
 export default function Animationmain3() {
   const ref = useRef();
@@ -27,7 +28,7 @@ export default function Animationmain3() {
   }, []);
 
   return (
-    <div>
+    <div className="linguagens-competencias">
       <h2>Linguagens e competencias</h2>
 
       <div ref={ref} className="subcontainer1">

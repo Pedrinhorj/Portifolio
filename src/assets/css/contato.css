@@ -35,3 +35,20 @@ div {
     transform: translateY(0);
   }
 }
+
+@media (max-width: 767px) {
+  .input {
+    max-width: 25em;
+  }
+  form button {
+    max-width: 8em;
+  }
+  .div-contacts p {
+    max-width: 20em;
+  }
+  .div-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

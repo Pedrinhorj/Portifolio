@@ -4,6 +4,7 @@ import "../animation.css";
 import Subcontainer2 from "../components/animationmain";
 import SubContainer from "../components/animationmain2";
 import Animationmain3 from "../components/animationmain3";
+import "../assets/css/mediaquery.css";
 
 const H1 = styled.h1`
   font-family: "Oswald";
@@ -19,7 +20,9 @@ export default function () {
   return (
     <div>
       <section className="container1">
-        <H1>Olá, seja bem vindo ao meu portifólio profissional e pessoal</H1>
+        <H1 className="h1-title">
+          Olá, seja bem vindo ao meu portifólio profissional e pessoal
+        </H1>
 
         <UncontrolledExemple />
       </section>

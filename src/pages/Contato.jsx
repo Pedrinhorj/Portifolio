@@ -29,7 +29,10 @@ export default function Contato() {
 
   return (
     <div>
-      <div style={{ padding: "20px", maxWidth: "600px", margin: "0 auto" }}>
+      <div
+        className="div-contacts"
+        style={{ padding: "20px", maxWidth: "600px", margin: "0 auto" }}
+      >
         <h1>Entre em Contato</h1>
         <p>
           Estou sempre aberto a novas oportunidades e colaborações. Sinta-se à

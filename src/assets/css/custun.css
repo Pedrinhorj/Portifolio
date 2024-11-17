@@ -1,8 +1,19 @@
 .html,
 .js,
 .css,
-.react,
+.React,
 .boot {
   width: 50em;
   margin-left: auto;
+}
+
+@media (max-width: 767px) {
+  .html,
+  .js,
+  .css,
+  .React,
+  .boot {
+    height: auto;
+    width: 150em;
+  }
 }

@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import "../animation.css";
+import "../assets/css/mediaquery.css";
 
 const SubContainer = () => {
   const ref1 = useRef();
