@@ -47,7 +47,7 @@ const Projects = () => {
 
       <h5>Aqui se encontram os meus principais projetos</h5>
 
-      <Main>
+      <Main className="main-projects">
         <Div className="div1">
           <Img src={telaLogin} alt="" />
           <DivNone className="none">

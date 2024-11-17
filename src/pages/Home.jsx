@@ -18,7 +18,7 @@ const H1 = styled.h1`
 
 export default function () {
   return (
-    <div>
+    <div className="div-main-home">
       <section className="container1">
         <H1 className="h1-title">
           Olá, seja bem vindo ao meu portifólio profissional e pessoal

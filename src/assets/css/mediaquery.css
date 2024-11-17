@@ -2,12 +2,17 @@
   .h1-title {
     font-size: 25px;
   }
-
+  #root,
+  .main-media,
+  .div-main-home,
+  html {
+    max-width: 766px;
+  }
   header {
-    max-width: 550px;
+    max-width: 766px;
   }
   .container1 {
-    max-width: 550px;
+    max-width: 766px;
     display: flex;
     flex-direction: column;
     gap: 5em;
@@ -16,12 +21,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 450px;
+    max-width: 400px;
   }
   .subcontainer2 p {
     max-width: 400px;
-    position: relative;
-    right: -70px;
   }
   .subcontainer {
     display: flex;
@@ -29,8 +32,7 @@
   }
   .subcontainer article {
     box-shadow: white 3px 3px 3px;
-    max-width: 480px;
-    margin-left: 25px;
+    max-width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,19 +44,25 @@
   .linguagens-competencias .subcontainer1 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
   }
-  .linguagens-competencias .subcontainer1 .competencias {
-    position: relative;
-    left: 10em;
+  .linguagens-competencias .subcontainer1 .languages {
+    height: auto;
+    margin-top: -40px;
   }
 
-  .linguagens-competencias .subcontainer1 .languages {
-    border: red solid 1px;
-    max-width: 100%;
+  .HTML,
+  .CSS,
+  .javascript,
+  .react,
+  .bootstrap {
+    display: flex;
+    flex-direction: column;
   }
-  .linguagens-competencias .subcontainer1 .languages div {
-    position: relative;
-    right: 1em;
+
+  .main-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
