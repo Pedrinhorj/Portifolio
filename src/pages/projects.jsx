@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import telaLogin from "../assets/images/tela-login.jpg";
 import narfnilk from "../assets/images/logo-title-option2.png";
+import clima from "../assets/images/Climatempo.jpg";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { FaLink } from "react-icons/fa6";
 import "../assets/css/projects.css";
@@ -88,9 +89,36 @@ const Projects = () => {
               >
                 <FaExternalLinkAlt />
               </a>
-              <FaLink />
+
+              <a
+                href="https://pedrinhorj.github.io/NARFNILK/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLink />
+              </a>
             </SubDiv>
             <p>Um projeto de uma empresa audio visual</p>
+          </DivNone>
+        </Div>
+        <Div className="div1">
+          <Img src={clima} alt="" />
+          <DivNone className="none">
+            <h4>Cidade e Clima</h4>
+            <SubDiv>
+              <a
+                href="https://github.com/Pedrinhorj/Cima-Tempo"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaExternalLinkAlt />
+              </a>
+
+              <a href="####" target="_blank" rel="noopener noreferrer">
+                <FaLink />
+              </a>
+            </SubDiv>
+            <p>Um site que mexe com api e meteoroliga</p>
           </DivNone>
         </Div>
       </Main>
